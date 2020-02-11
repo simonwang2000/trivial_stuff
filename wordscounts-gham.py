@@ -34,3 +34,9 @@ wordsCountList = sorted(orderedWordCount.items(), key=lambda t: t[1], reverse=Tr
 for kvTuple in wordsCountList:
     tupleStr = '%s : %s'%(kvTuple[0], kvTuple[1])
     print(tupleStr)
+
+'''
+for k, v in wordsCountList:
+    str = '%s : %s'%(k, v)
+    print(str)
+'''
